@@ -45,7 +45,7 @@
                 }
             }
 
-            Console.WriteLine();
+            Console.WriteLine(); 
 
             Computer comp6=comps.OrderByDescending(x=>x.Price).FirstOrDefault();
             Console.WriteLine($"{comp6.Brand_code},{comp6.Brand_name},{comp6.Processor_type}, {comp6.Processorfreq},{comp6.Opmemory_volume},{comp6.Disk_volume},{comp6.Vidmemory_volume},{comp6.Price},{comp6.Number}");
